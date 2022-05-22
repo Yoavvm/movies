@@ -1,0 +1,13 @@
+.container {
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    border: 3px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div {
+    margin: 20px;
+
+}

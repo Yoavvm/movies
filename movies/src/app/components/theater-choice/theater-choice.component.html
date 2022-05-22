@@ -1,0 +1,5 @@
+<h3>Please Choose your prefered theater:</h3>
+
+<select (change)="initMovies()" [(ngModel)]="theaterService.selectedTheater">
+    <option *ngFor="let theater of theaterService.theaters" [value]="theater.theaterId">{{theater.theaterName}}</option>
+</select>

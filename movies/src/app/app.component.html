@@ -1,0 +1,4 @@
+<app-theater-choice></app-theater-choice>
+<app-movie-choice></app-movie-choice>
+<app-new-movie-modal *ngIf="!stateService.isModalOpen"></app-new-movie-modal>
+<button (click)="openNewMovieModal()" *ngIf="!stateService.isModalOpen">Post a new movie</button>
